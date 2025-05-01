@@ -1,0 +1,76 @@
+= EXPRESS Language Foundation Specifications
+
+image:https://github.com/expresslang/docs/workflows/generate/badge.svg["Build Status", link="https://github.com/expresslang/docs/actions?query=workflow%3Agenerate"]
+
+This document is available in its rendered forms here:
+
+* https://www.expresslang.org/[EXPRESS Language Foundation]
+
+== Introduction
+
+This repository contains official specifications maintained by the EXPRESS
+Language Foundation (ELF). The EXPRESS Language Foundation facilitates the
+education, standardization, research, promotion, definition, and usage of
+information modelling and programming languages, with a focus on the EXPRESS
+language family.
+
+The specifications include:
+
+5001:: *Annotated EXPRESS* -- Specification for documenting EXPRESS models with structured annotations
+5002:: *EXPRESS language pretty print format* -- Specification for standardized formatting of EXPRESS language constructs
+
+These specifications are written in Metanorma to generate standardized
+documentation in multiple formats.
+
+== Structure
+
+`sources/`:: source files for EXPRESS specifications in Metanorma format.
+
+`sources/annotated-express/`:::
+Annotated EXPRESS specification
+
+`sources/express-pretty/`:::
+EXPRESS language pretty print format specification
+
+`sources/expressdocs-migration/`:::
+Migration of EXPRESS documentation to EXPRESSdocs
+
+== Building documentation
+
+This repository uses Metanorma to build standardized documentation.
+
+=== Installing build tools
+
+See https://www.metanorma.org/install/ for detailed installation instructions.
+
+
+=== Building locally
+
+If you have Metanorma installed locally, run:
+
+[source,sh]
+----
+metanorma site generate
+----
+
+=== Building with Docker
+
+If you prefer using Docker, run:
+
+[source,sh]
+----
+docker run -v "$(pwd)":/metanorma -w /metanorma -it metanorma/mn metanorma site generate
+----
+
+== Generated Formats
+
+The build process generates documentation in multiple formats:
+
+* HTML -- Web-friendly format with navigation
+* PDF -- Print-ready format
+* XML -- Machine-readable format
+* RXL -- Relaton XML bibliographic format
+
+== License
+
+Copyright EXPRESS Language Foundation.

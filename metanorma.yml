@@ -1,0 +1,11 @@
+---
+metanorma:
+  source:
+    files:
+      - sources/express-pretty/document.adoc
+      - sources/annotated-express/document.adoc
+      - sources/expressdocs-migration/document.adoc
+
+  collection:
+    organization: "EXPRESS Language Foundation"
+    name: "ELF specifications"
