@@ -1,8 +1,8 @@
 = Annotated EXPRESS
 :docnumber: 5001
 :edition: 1
-:copyright-year: 2025
-:revdate: 2025-05-01
+:copyright-year: 2024
+:revdate: 2024-05-15
 :language: en
 :title-main-en: Annotated EXPRESS
 :doctype: international-standard

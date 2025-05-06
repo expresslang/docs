@@ -2,7 +2,7 @@
 :docnumber: 5003
 :edition: 1
 :copyright-year: 2025
-:revdate: 2025-05-01
+:revdate: 2024-05-15
 :language: en
 :title-main-en: Conversion of EXPRESS documentation into Annotated EXPRESS
 :doctype: international-standard
