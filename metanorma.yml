@@ -5,6 +5,8 @@ metanorma:
       - sources/express-pretty/document.adoc
       - sources/annotated-express/document.adoc
       - sources/expressdocs-migration/document.adoc
+      - sources/express-schema-manifest/document.adoc
+      - sources/express-changes/document.adoc
 
   collection:
     organization: "EXPRESS Language Foundation"

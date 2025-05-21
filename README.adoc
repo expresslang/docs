@@ -18,6 +18,9 @@ The specifications include:
 
 5001:: *Annotated EXPRESS* -- Specification for documenting EXPRESS models with structured annotations
 5002:: *EXPRESS language pretty print format* -- Specification for standardized formatting of EXPRESS language constructs
+5003:: *EXPRESS documentation migration* -- Specification for migrating EXPRESS documentation to the new format
+5004:: *EXPRESS schema manifest* -- Specification for creating a manifest of EXPRESS schemas
+5005:: *EXPRESS changes* -- Specification for documenting changes to the EXPRESS language and its specifications
 
 These specifications are written in Metanorma to generate standardized
 documentation in multiple formats.
@@ -34,6 +37,12 @@ EXPRESS language pretty print format specification
 
 `sources/expressdocs-migration/`:::
 Migration of EXPRESS documentation to EXPRESSdocs
+
+`sources/express-schema-manifest/`:::
+EXPRESS schema manifest specification
+
+`sources/express-changes/`:::
+EXPRESS changes specification
 
 == Building documentation
 
