@@ -19,6 +19,12 @@
 :givenname_2: Thomas
 :affiliation_2: EXPRESS Language Foundation
 :publisher: ELF
+:docidentifier: ELF 5005:2025
+:boilerplate-authority: ../_common/boilerplate.adoc
+:presentation-metadata-organization-fullname: EXPRESS Language Foundation
+:presentation-metadata-doctype-customized: Standard
+:presentation-metadata-color-secondary: #3f65a2
+:presentation-metadata-backcover-text: expresslang.org
 :data-uri-image:
 :local-cache-only:
 
