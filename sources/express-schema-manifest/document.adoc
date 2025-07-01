@@ -5,10 +5,10 @@
 :revdate: 2024-05-21
 :language: en
 :title-main-en: EXPRESS schema manifest specification
-:doctype: international-standard
+:doctype: standard
 :technical-committee: EXPRESS
 :imagesdir: images
-:mn-document-class: iso
+:mn-document-class: elf
 :mn-output-extensions: xml,html,doc,pdf,rxl
 :fullname: Ronald Tse
 :surname: Tse
@@ -18,13 +18,7 @@
 :surname_2: Thurman
 :givenname_2: Thomas
 :affiliation_2: EXPRESS Language Foundation
-:publisher: ELF
 :docidentifier: ELF 5004:2024
-:boilerplate-authority: ../_common/boilerplate.adoc
-:presentation-metadata-organization-fullname: EXPRESS Language Foundation
-:presentation-metadata-doctype-customized: Standard
-:presentation-metadata-color-secondary: #3f65a2
-:presentation-metadata-backcover-text: expresslang.org
 :data-uri-image:
 :local-cache-only:
 
