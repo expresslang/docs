@@ -1,0 +1,143 @@
+[appendix,obligation=informative]
+== Examples
+
+=== General
+
+This annex provides example of the EXPRESS Changes YAML format.
+
+=== Schema change
+
+This example shows schema changes made to a resource schema,
+`support_resource_schema` across two editions: version 2 and version 4.
+
+[source,yaml]
+----
+---
+schema: support_resource_schema
+change_edition:
+- version: '2'
+  description: |-
+    The definitions of the following EXPRESS entity data types were modified:
+
+    * identifier;
+    * label;
+    * text.
+  additions:
+  - type: FUNCTION
+    name: type_check_function
+  modifications:
+  - type: FUNCTION
+    name: bag_to_set
+- version: '4'
+  description: |-
+    The following entity types had been introduced to support external element references outside the local population of entity instances:
+
+    * component_path_shape_aspect;
+    * externally_defined_item_with_multiple_references;
+    * generic_product_definition_reference;
+    * product_definition_reference;
+    * product_definition_reference_with_local_representation.
+
+    The following entity types had been introduced to support the the characterization of objects:
+
+    * characterized_chain_based_item_within_representation;
+    * characterized_item_within_representation;
+    * characterized_product.
+
+    The following select types from the basic_attribute_schema had been converted into extensible selects and then extended in several other schemas:
+
+    * description_attribute_select;
+    * id_attribute_select;
+    * name_attribute_select;
+    * role_select.
+  modifications:
+  - type: FUNCTION
+    name: type_check_function
+----
+
+This example shows schema changes made to the ARM `Analytical_model_arm` schema
+across several editions: version 2, version 3, version 4, and version 5.
+
+[source,yaml]
+----
+---
+schema: Analytical_model_arm
+change_edition:
+- version: '2'
+  additions:
+  - type: TYPE
+    name: am_property_assignment_select
+  modifications:
+  - type: TYPE
+    name: model_parameter_type
+  - type: ENTITY
+    name: Analytical_model
+  - type: ENTITY
+    name: Analytical_model_application
+  - type: ENTITY
+    name: Analytical_model_parameter
+  - type: ENTITY
+    name: Digital_analytical_model_port
+  - type: ENTITY
+    name: Digital_analytical_model_vector_port
+  deletions:
+  - type: USE_FROM
+    name: Specification_document_arm
+  - type: REFERENCE_FROM
+    name: product_identification_arm
+    interfaced_items: types_of_product
+- version: '3'
+  additions:
+  - type: TYPE
+    name: am_parameter_assignment_select
+  modifications:
+  - type: ENTITY
+    name: Transform_port_variable
+- version: '4'
+  description: The name of the Application Object Analog_port_variable was changed
+    to Port_variable.
+- version: '5'
+  additions:
+  - type: USE_FROM
+    name: Part_template_arm
+  - type: ENTITY
+    name: reference_part_template_for_analytical_model
+----
+
+This example shows schema changes made to the MIM `Analytical_model_mim` schema
+across two editions: version 4 and version 5.
+
+[source,yaml]
+----
+---
+schema: Analytical_model_mim
+change_edition:
+- version: '4'
+  deletions:
+  - type: ENTITY
+    name: analog_port_variable
+- version: '5'
+  additions:
+  - type: USE_FROM
+    name: Part_template_mim
+----
+
+
+=== Mapping change
+
+This example shows mapping changes made to the `product_as_individual_assembly_and_test`
+schema across two editions: version 2 and version 5.
+
+[source,yaml]
+----
+---
+schema: product_as_individual_assembly_and_test
+editions:
+- version: '2'
+  mappings:
+  - description: Applied_activity_assignment mapping updated
+  - description: Applied_process_operation_occurrence mapping updated
+  - description: Applied_test_activity mapping updated
+- version: '5'
+  description: Mapping specifications updated.
+----

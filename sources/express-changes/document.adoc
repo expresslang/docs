@@ -2,7 +2,7 @@
 :docnumber: 5005
 :edition: 1
 :copyright-year: 2025
-:revdate: 2025-02-06
+:revdate: 2025-10-14
 :language: en
 :title-main-en: EXPRESS changes model in YAML
 :doctype: standard
@@ -32,6 +32,12 @@ include::sections/02-normrefs.adoc[]
 
 include::sections/03-terms.adoc[]
 
-include::sections/04-spec.adoc[]
+include::sections/04-structure.adoc[]
+
+include::sections/05-schema-change.adoc[]
+
+include::sections/06-mapping-change.adoc[]
+
+include::sections/aa-examples.adoc[]
 
 include::sections/az-bibliography.adoc[]
