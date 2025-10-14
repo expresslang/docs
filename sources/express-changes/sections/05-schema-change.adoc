@@ -1,0 +1,101 @@
+
+== Schema change
+
+=== General
+
+The schema change structure captures modifications to the structure and
+semantics of an EXPRESS schema across different editions or versions. It
+captures additions, modifications, and removals of schema elements such as
+entities, types, functions, and rules.
+
+The structure is built on the following constructs:
+
+* Edition changes: Each edition or version of the schema, detailing what
+changed.
+
+* Item changes: Specific elements that were added, modified, or removed in an
+edition.
+
+Syntax:
+
+[source,yaml]
+----
+schema: String (required)
+  # Name of the EXPRESS schema
+editions:
+  - {edition change 1}
+  - {edition change 2}
+----
+
+
+=== Edition change
+
+Each edition change represents a specific version of the schema and details
+the changes made in that version.
+
+Syntax:
+
+[source,yaml]
+----
+version: String (required)
+# Version number for this change edition
+description: String (required)
+# Description of changes in this edition
+additions:
+  - {item change 1}
+  - {item change 2}
+modifications:
+  - {item change 1}
+  - {item change 2}
+removals:
+  - {item change 1}
+  - {item change 2}
+----
+
+Fields:
+
+`version`:: The version number (string) (required).
++
+[example]
+`2`, `3.1`, `2024-06`.
+
+`description`:: A multi-line string describing the changes made in this edition
+(required). Should provide a comprehensive overview of what changed and why.
+
+`additions`:: An array of added elements as item changes (optional).
+
+`modifications`:: An array of modified elements as item changes (optional).
+
+`removals`:: An array of removed elements as item changes (optional).
+
+
+
+=== Item change
+
+Each item change represents a specific schema element that was added, modified,
+or removed.
+
+Syntax:
+
+[source,yaml]
+----
+type: String (required)
+# Type of the EXPRESS construct (e.g., ENTITY, TYPE, FUNCTION)
+name: String (required)
+# Name of the EXPRESS construct
+----
+
+Fields:
+
+`type`:: The type of the EXPRESS construct (string) (required). Allowed values
+are:
+
+`ENTITY`::: Entity definitions
+`TYPE`::: Type definitions (including SELECT, ENUMERATION)
+`FUNCTION`::: Function definitions
+`RULE`::: Rule definitions
+`PROCEDURE`::: Procedure definitions
+`CONSTANT`::: Constant definitions
+
+`name`:: The name of the EXPRESS construct (string) (required).
+

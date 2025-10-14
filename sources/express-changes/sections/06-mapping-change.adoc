@@ -1,0 +1,104 @@
+== Mapping change
+
+=== General
+
+
+A mapping change records modifications to the mapping of an EXPRESS schema to
+another schema or representation.
+
+The structure is built on the following constructs:
+
+* Edition changes: Each edition or version of the schema, detailing what
+changed.
+
+* Item changes: Specific elements that had mappings changed in an edition.
+
+Syntax:
+
+[source,yaml]
+----
+schema: String (required)
+  # Name of the EXPRESS schema
+editions:
+  - {edition change 1}
+  - {edition change 2}
+----
+
+=== Edition change
+
+Each edition change represents a specific version of the schema and details
+the mapping changes made in that version.
+
+Syntax:
+
+[source,yaml]
+----
+version: String (required)
+# Version number for this change edition
+description: String (required)
+# Description of changes in this edition
+mapping:
+  - {item change 1}
+  - {item change 2}
+----
+
+Fields:
+
+`version`:: The version number (string) (required).
++
+[example]
+`2`, `3.1`, `2024-06`.
+
+`description`:: A multi-line string describing the changes made in this edition
+(required). Should provide a comprehensive overview of what changed and why.
+
+`mappings`:: An array of mapping changes (optional).
+
+
+=== Mapping change
+
+Each mapping change represents a specific element whose mapping has changed in an
+edition.
+
+Syntax:
+
+[source,yaml]
+----
+name: String (required)
+# Name of the EXPRESS construct whose mapping changed
+description: String (optional)
+# Description of the mapping change
+----
+
+Fields:
+
+`name`:: The name of the EXPRESS construct whose mapping changed (string) (required).
+
+`description`:: A description of the mapping change (string) (optional).
+
+
+.Mapping change file from ISO 10303 SRL altered_package
+[example]
+====
+[source,yaml]
+----
+---
+schema: altered_package
+change_edition:
+- version: '2'
+  mappings:
+  - name: Altered_package.modified_terminal_separation
+  - description: Altered_package.of_geometric_status mapping has been updated.
+- version: '3'
+  description: |-
+    Minor editorial changes.
+
+    The definitions of the following MIM EXPRESS declarations and interface specifications were modified:
+
+    * ENTITY surface_prepped_terminal.
+- version: '4'
+  description: 'Minor editorial change: the HTML link of Layered_assembly_module_design_view
+    in Surface_prepped_terminal''s description has been fixed.'
+----
+====
+
