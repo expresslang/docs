@@ -1,0 +1,7 @@
+*.abort
+Gemfile.lock
+*.log.*
+*.err
+relaton/
+iev/
+_site/
