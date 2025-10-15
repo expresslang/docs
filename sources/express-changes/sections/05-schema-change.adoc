@@ -3,18 +3,18 @@
 
 === General
 
-The schema change structure captures modifications to the structure and
-semantics of an EXPRESS schema across different editions or versions. It
-captures additions, modifications, and removals of schema elements such as
+The schema change structure is a record of modifications to the structure and
+semantics of an EXPRESS schema across different editions.
+
+It records additions, modifications, and removals of schema elements such as
 entities, types, functions, and rules.
 
 The structure is built on the following constructs:
 
-* Edition changes: Each edition or version of the schema, detailing what
-changed.
+* Edition changes: Changes made to the schema in a specific edition compared to
+the previous edition.
 
-* Item changes: Specific elements that were added, modified, or removed in an
-edition.
+* Item changes: Specific elements that were added, modified, or removed.
 
 Syntax:
 
@@ -30,8 +30,7 @@ editions:
 
 === Edition change
 
-Each edition change represents a specific version of the schema and details
-the changes made in that version.
+Each edition change object details changes between two editions of the schema.
 
 Syntax:
 
@@ -39,7 +38,7 @@ Syntax:
 ----
 version: String (required)
 # Version number for this change edition
-description: String (required)
+description: String (optional)
 # Description of changes in this edition
 additions:
   - {item change 1}
@@ -54,40 +53,47 @@ removals:
 
 Fields:
 
-`version`:: The version number (string) (required).
+`version`:: (required) The version number (integer). Must be positive.
 +
 [example]
-`2`, `3.1`, `2024-06`.
+`2`, `3`, `6`.
 
-`description`:: A multi-line string describing the changes made in this edition
-(required). Should provide a comprehensive overview of what changed and why.
+`description`:: (optional) A multi-line string describing the changes made in
+this edition. Should provide a comprehensive overview of what changed and why.
+If not provided, a publication may provide its own boilerplate or summary.
 
-`additions`:: An array of added elements as item changes (optional).
+`additions`:: (optional) An array of added elements as item changes.
 
-`modifications`:: An array of modified elements as item changes (optional).
+`modifications`:: (optional) An array of modified elements as item changes.
 
-`removals`:: An array of removed elements as item changes (optional).
+`removals`:: (optional) An array of removed elements as item changes.
 
 
 
 === Item change
 
 Each item change represents a specific schema element that was added, modified,
-or removed.
+or removed, and when applicable, references to other EXPRESS constructs.
 
 Syntax:
 
 [source,yaml]
 ----
-type: String (required)
 # Type of the EXPRESS construct (e.g., ENTITY, TYPE, FUNCTION)
-name: String (required)
+type: String (required)
 # Name of the EXPRESS construct
+name: String (required)
+# Description of the change
+description: Array (optional)
+- String
+# For USE_FROM or REFERENCE_FROM, list of specific items referenced or used
+interfaced_items: Array (optional)
+- String
 ----
 
 Fields:
 
-`type`:: The type of the EXPRESS construct (string) (required). Allowed values
+`type`:: (required) The type of the EXPRESS construct (string). Allowed values
 are:
 
 `ENTITY`::: Entity definitions
@@ -96,6 +102,59 @@ are:
 `RULE`::: Rule definitions
 `PROCEDURE`::: Procedure definitions
 `CONSTANT`::: Constant definitions
+`REFERENCE_FROM`::: A reference from another schema, with an additional field
+`interfaced_items` listing the specific items referenced when in `additions`.
+When used in `deletions`, no `interfaced_items` is needed.
+`USE_FROM`::: A use from another schema, with an additional field `interfaced_items`
+listing the specific items used when in `additions`. When used in `deletions`, no
+`interfaced_items` is needed.
 
-`name`:: The name of the EXPRESS construct (string) (required).
+`name`:: (required) The name of the EXPRESS construct (string).
 
+`description`:: (optional) An array of strings describing the change. Each
+string represents a description for a single change in the named target.
+For instance, if an entity had an attribute removed and a WHERE rule added, the
+description array would have two entries, one for each change.
++
+[example]
+====
+[source,yaml]
+----
+---
+schema: Additive_manufacturing_part_and_build_information_arm
+editions:
+- version: '2'
+  modifications:
+  - type: ENTITY
+    name: Additive_manufacturing_build_direction_element
+    description:
+    - Remove Attribute 'identified_item'
+    - Remove DERIVE 'element_name'
+    - Add WHERE 'WR1'
+    - Figure updated
+----
+====
+
+`interfaced_items`:: (optional) For `USE_FROM` or `REFERENCE_FROM`, an array of
+specific items referenced or used. Not needed when in `deletions`.
++
+[example]
+====
+[source,yaml]
+----
+---
+schema: Document_and_version_identification_mim
+editions:
+- version: '2'
+  deletions:
+  - type: USE_FROM
+    name: Product_identification_mim
+- version: '3'
+  additions:
+  - type: USE_FROM
+    name: product_definition_schema
+    interfaced_items:
+    - product_category
+    - product_related_product_category
+----
+====

@@ -18,7 +18,7 @@ schema: String (required)
 editions:
   - version: String (required)
     # Version number for this change edition
-    description: String (required)
+    description: String (optional)
     # Description of changes in this edition
     {type_of_change}:
       - description: String (required)
