@@ -14,7 +14,7 @@ This example shows schema changes made to a resource schema,
 ----
 ---
 schema: support_resource_schema
-change_edition:
+editions:
 - version: '2'
   description: |-
     The definitions of the following EXPRESS entity data types were modified:
@@ -62,7 +62,7 @@ across several editions: version 2, version 3, version 4, and version 5.
 ----
 ---
 schema: Analytical_model_arm
-change_edition:
+editions:
 - version: '2'
   additions:
   - type: TYPE
@@ -85,7 +85,8 @@ change_edition:
     name: Specification_document_arm
   - type: REFERENCE_FROM
     name: product_identification_arm
-    interfaced_items: types_of_product
+    interfaced_items:
+    - types_of_product
 - version: '3'
   additions:
   - type: TYPE

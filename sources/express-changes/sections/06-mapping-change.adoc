@@ -8,10 +8,10 @@ another schema or representation.
 
 The structure is built on the following constructs:
 
-* Edition changes: Each edition or version of the schema, detailing what
-changed.
+* Edition changes: Details changes made to this edition of the mapping specification
+against the previous version.
 
-* Item changes: Specific elements that had mappings changed in an edition.
+* Item changes: Specific elements in the mappings that were changed in this edition.
 
 Syntax:
 
@@ -26,8 +26,8 @@ editions:
 
 === Edition change
 
-Each edition change represents a specific version of the schema and details
-the mapping changes made in that version.
+Each edition change represents a changes made to the mapping specification in a
+specific edition compared to the previous edition.
 
 Syntax:
 
@@ -35,24 +35,25 @@ Syntax:
 ----
 version: String (required)
 # Version number for this change edition
-description: String (required)
+description: String (optional)
 # Description of changes in this edition
-mapping:
+mappings:
   - {item change 1}
   - {item change 2}
 ----
 
 Fields:
 
-`version`:: The version number (string) (required).
+`version`:: (required) The version number (integer). Must be positive.
 +
 [example]
-`2`, `3.1`, `2024-06`.
+`2`, `3`, `6`.
 
-`description`:: A multi-line string describing the changes made in this edition
-(required). Should provide a comprehensive overview of what changed and why.
+`description`:: (optional) A multi-line string describing the changes made in
+this edition. Should provide a comprehensive overview of what changed and why.
+If not provided, a publication may provide its own boilerplate or summary.
 
-`mappings`:: An array of mapping changes (optional).
+`mappings`:: (optional) An array of mapping changes.
 
 
 === Mapping change
@@ -64,7 +65,7 @@ Syntax:
 
 [source,yaml]
 ----
-name: String (required)
+name: String (optional)
 # Name of the EXPRESS construct whose mapping changed
 description: String (optional)
 # Description of the mapping change
@@ -72,33 +73,25 @@ description: String (optional)
 
 Fields:
 
-`name`:: The name of the EXPRESS construct whose mapping changed (string) (required).
+`name`:: (optional) The name of the EXPRESS construct whose mapping changed (string).
 
-`description`:: A description of the mapping change (string) (optional).
+`description`:: (optional) A description of the mapping change (string).
 
-
-.Mapping change file from ISO 10303 SRL altered_package
+.Mapping change file from ISO 10303 SRL module product_as_individual_assembly_and_test
 [example]
 ====
 [source,yaml]
 ----
 ---
-schema: altered_package
-change_edition:
+schema: product_as_individual_assembly_and_test
+editions:
 - version: '2'
   mappings:
-  - name: Altered_package.modified_terminal_separation
-  - description: Altered_package.of_geometric_status mapping has been updated.
-- version: '3'
-  description: |-
-    Minor editorial changes.
-
-    The definitions of the following MIM EXPRESS declarations and interface specifications were modified:
-
-    * ENTITY surface_prepped_terminal.
-- version: '4'
-  description: 'Minor editorial change: the HTML link of Layered_assembly_module_design_view
-    in Surface_prepped_terminal''s description has been fixed.'
+  - description: Applied_activity_assignment mapping updated
+  - description: Applied_process_operation_occurrence mapping updated
+  - description: Applied_test_activity mapping updated
+- version: '5'
+  description: Mapping specifications updated.
 ----
 ====
 
