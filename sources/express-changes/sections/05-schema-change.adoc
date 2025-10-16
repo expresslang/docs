@@ -103,6 +103,7 @@ are:
 `RULE`::: Rule definitions
 `PROCEDURE`::: Procedure definitions
 `CONSTANT`::: Constant definitions
+`SUBTYPE_CONSTRAINT`::: Subtype constraints
 `REFERENCE_FROM`::: A reference from another schema, with an additional field
 `interfaced_items` listing the specific items referenced when in `additions`.
 When used in `deletions`, no `interfaced_items` is needed.
