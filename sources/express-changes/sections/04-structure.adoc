@@ -35,6 +35,6 @@ Fields:
 
 `versions`:: An array of version change objects (required).
 
-`type_of_change`:: One of `additions`, `modifications`, `removals`, or
-`mapping`.
+`type_of_change`:: One of `additions`, `modifications`, `deletions`, or
+`mappings`.
 

@@ -7,7 +7,7 @@
 The schema change structure is a record of modifications to the structure and
 semantics of an EXPRESS schema across different versions.
 
-It records additions, modifications, and removals of schema elements such as
+It records additions, modifications, and deletions of schema elements such as
 entities, types, functions, and rules.
 
 The structure is built on the following constructs:
@@ -47,7 +47,7 @@ additions:
 modifications:
   - {item change 1}
   - {item change 2}
-removals:
+deletions:
   - {item change 1}
   - {item change 2}
 ----
@@ -67,7 +67,7 @@ If not provided, a publication may provide its own boilerplate or summary.
 
 `modifications`:: (optional) An array of modified elements as item changes.
 
-`removals`:: (optional) An array of removed elements as item changes.
+`deletions`:: (optional) An array of removed elements as item changes.
 
 
 
