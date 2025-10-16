@@ -5,6 +5,7 @@ type: object
 required:
   - schema
   - versions
+additionalProperties: false
 properties:
   schema:
     type: string
@@ -20,6 +21,7 @@ definitions:
     description: Changes made to the schema in a specific version
     required:
       - version
+    additionalProperties: false
     properties:
       version:
         type: integer
@@ -47,6 +49,7 @@ definitions:
   item_change:
     type: object
     description: Represents a specific schema element change
+    additionalProperties: false
     required:
       - type
       - name

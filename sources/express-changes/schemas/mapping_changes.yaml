@@ -5,6 +5,7 @@ type: object
 required:
   - schema
   - versions
+additionalProperties: false
 properties:
   schema:
     type: string
@@ -20,6 +21,7 @@ definitions:
     description: Changes made to the mapping specification in a specific version
     required:
       - version
+    additionalProperties: false
     properties:
       version:
         type: integer
@@ -37,6 +39,7 @@ definitions:
   mapping_change:
     type: object
     description: Represents a specific element whose mapping has changed
+    additionalProperties: false
     properties:
       name:
         type: string
