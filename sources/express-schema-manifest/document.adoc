@@ -34,4 +34,8 @@ include::sections/03-terms.adoc[]
 
 include::sections/04-syntax.adoc[]
 
+include::sections/aa-examples.adoc[]
+
+include::sections/ab-schemas.adoc[]
+
 include::sections/99-bibliography.adoc[]

@@ -1,0 +1,41 @@
+[appendix,obligation=normative]
+== Schemas
+
+=== General
+
+This annex provides the YAML Schema definitions for the EXPRESS Schema Manifest YAML
+format defined in this document.
+
+This schema can be used to validate EXPRESS Schema Manifest YAML files and to
+generate documentation or tooling for working with EXPRESS change records.
+
+The schemas are defined in YAML Schema format that follows the JSON Schema
+format (draft-07).
+
+The schema change schema defines the structure for recording modifications to
+EXPRESS schema structure across versions, as described in <<syntax>>.
+
+[source,yaml]
+----
+include::../schemas/schema_manifest.yaml[]
+----
+
+This schema can be used for validation by prefixing an EXPRESS Schema Manifest
+YAML file with the following comment line:
+
+[source,yaml]
+----
+# yaml-language-server: $schema=https://www.expresslang.org/schemas/manifest/v1/schema_manifest.yaml
+----
+
+[example]
+====
+[source,yaml]
+----
+# yaml-language-server: $schema=https://www.expresslang.org/schemas/manifest/v1/schema_manifest.yaml
+---
+schemas:
+  action_schema:
+    path: ./schemas/action_schema.exp
+----
+====

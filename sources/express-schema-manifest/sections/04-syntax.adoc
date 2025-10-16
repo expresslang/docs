@@ -1,3 +1,4 @@
+[[syntax]]
 == Syntax
 
 === General
@@ -28,7 +29,7 @@ schemas: <2>
   # ...
 ----
 <1> (optional) Root path
-<2> (mandatory)Schema listings
+<2> (mandatory) Schema listings
 <3> (mandatory) Individual EXPRESS schema names
 <4> (optional) Individual schema path
 
