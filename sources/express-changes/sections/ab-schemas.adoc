@@ -23,8 +23,8 @@ EXPRESS schema structure across versions, as described in <<schema-change>>.
 include::../schemas/schema_changes.yaml[]
 ----
 
-This schema can be used for validation by prefixing an EXPRESS Changes YAML
-file with the following comment line:
+This schema can be used for validation by inserting the following comment line
+at the beginning of the EXPRESS changes YAML file.
 
 [source,yaml]
 ----
@@ -41,8 +41,8 @@ EXPRESS schema mappings across versions, as described in <<mapping-change>>.
 include::../schemas/mapping_changes.yaml[]
 ----
 
-This schema can be used for validation by prefixing an EXPRESS Changes YAML
-file with the following comment line:
+This schema can be used for validation by inserting the following comment line
+at the beginning of the EXPRESS changes YAML file.
 
 [source,yaml]
 ----
