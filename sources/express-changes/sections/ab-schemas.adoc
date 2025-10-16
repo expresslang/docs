@@ -12,7 +12,7 @@ generate documentation or tooling for working with EXPRESS change records.
 === Schema change schema
 
 The schema change schema defines the structure for recording modifications to
-EXPRESS schema structure across editions, as described in <<schema-change>>.
+EXPRESS schema structure across versions, as described in <<schema-change>>.
 
 The schema is defined in JSON Schema format (draft-07).
 
@@ -24,7 +24,7 @@ include::../schemas/schema_changes.yaml[]
 === Mapping change schema
 
 The mapping change schema defines the structure for recording modifications to
-EXPRESS schema mappings across editions, as described in <<mapping-change>>.
+EXPRESS schema mappings across versions, as described in <<mapping-change>>.
 
 The schema is defined in JSON Schema format (draft-07).
 
