@@ -5,15 +5,15 @@
 === General
 
 The schema change structure is a record of modifications to the structure and
-semantics of an EXPRESS schema across different editions.
+semantics of an EXPRESS schema across different versions.
 
 It records additions, modifications, and removals of schema elements such as
 entities, types, functions, and rules.
 
 The structure is built on the following constructs:
 
-* Edition changes: Changes made to the schema in a specific edition compared to
-the previous edition.
+* Version changes: Changes made to the schema in a specific version compared to
+the previous version.
 
 * Item changes: Specific elements that were added, modified, or removed.
 
@@ -23,24 +23,24 @@ Syntax:
 ----
 schema: String (required)
   # Name of the EXPRESS schema
-editions:
-  - {edition change 1}
-  - {edition change 2}
+versions:
+  - {version change 1}
+  - {version change 2}
 ----
 
 
-=== Edition change
+=== Version change
 
-Each edition change object details changes between two editions of the schema.
+Each version change object details changes between two versions of the schema.
 
 Syntax:
 
 [source,yaml]
 ----
 version: String (required)
-# Version number for this change edition
+# Version number for this change version
 description: String (optional)
-# Description of changes in this edition
+# Description of changes in this version
 additions:
   - {item change 1}
   - {item change 2}
@@ -60,7 +60,7 @@ Fields:
 `2`, `3`, `6`.
 
 `description`:: (optional) A multi-line string describing the changes made in
-this edition. Should provide a comprehensive overview of what changed and why.
+this version. Should provide a comprehensive overview of what changed and why.
 If not provided, a publication may provide its own boilerplate or summary.
 
 `additions`:: (optional) An array of added elements as item changes.
@@ -123,7 +123,7 @@ description array would have two entries, one for each change.
 ----
 ---
 schema: Additive_manufacturing_part_and_build_information_arm
-editions:
+versions:
 - version: '2'
   modifications:
   - type: ENTITY
@@ -145,7 +145,7 @@ specific items referenced or used. Not needed when in `deletions`.
 ----
 ---
 schema: Document_and_version_identification_mim
-editions:
+versions:
 - version: '2'
   deletions:
   - type: USE_FROM

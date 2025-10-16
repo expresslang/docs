@@ -1,7 +1,7 @@
 == Structure
 
 An EXPRESS Changes document is a YAML file that records changes made to an
-EXPRESS schema across different editions or versions.
+EXPRESS schema across different versions or versions.
 
 There are two kinds of changes:
 
@@ -15,11 +15,11 @@ specification.
 ----
 schema: String (required)
   # Name of the EXPRESS schema
-editions:
+versions:
   - version: String (required)
-    # Version number for this change edition
+    # Version number for this change version
     description: String (optional)
-    # Description of changes in this edition
+    # Description of changes in this version
     {type_of_change}:
       - description: String (required)
         # Description of the change
@@ -33,7 +33,7 @@ Fields:
 [example]
 `support_resource_schema`
 
-`editions`:: An array of edition change objects (required).
+`versions`:: An array of version change objects (required).
 
 `type_of_change`:: One of `additions`, `modifications`, `removals`, or
 `mapping`.

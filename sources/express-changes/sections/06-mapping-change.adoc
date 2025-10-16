@@ -9,10 +9,10 @@ another schema or representation.
 
 The structure is built on the following constructs:
 
-* Edition changes: Details changes made to this edition of the mapping specification
+* Version changes: Details changes made to this version of the mapping specification
 against the previous version.
 
-* Item changes: Specific elements in the mappings that were changed in this edition.
+* Item changes: Specific elements in the mappings that were changed in this version.
 
 Syntax:
 
@@ -20,24 +20,24 @@ Syntax:
 ----
 schema: String (required)
   # Name of the EXPRESS schema
-editions:
-  - {edition change 1}
-  - {edition change 2}
+versions:
+  - {version change 1}
+  - {version change 2}
 ----
 
-=== Edition change
+=== Version change
 
-Each edition change represents a changes made to the mapping specification in a
-specific edition compared to the previous edition.
+Each version change represents a changes made to the mapping specification in a
+specific version compared to the previous version.
 
 Syntax:
 
 [source,yaml]
 ----
 version: String (required)
-# Version number for this change edition
+# Version number for this change version
 description: String (optional)
-# Description of changes in this edition
+# Description of changes in this version
 mappings:
   - {item change 1}
   - {item change 2}
@@ -51,7 +51,7 @@ Fields:
 `2`, `3`, `6`.
 
 `description`:: (optional) A multi-line string describing the changes made in
-this edition. Should provide a comprehensive overview of what changed and why.
+this version. Should provide a comprehensive overview of what changed and why.
 If not provided, a publication may provide its own boilerplate or summary.
 
 `mappings`:: (optional) An array of mapping changes.
@@ -60,7 +60,7 @@ If not provided, a publication may provide its own boilerplate or summary.
 === Mapping change
 
 Each mapping change represents a specific element whose mapping has changed in an
-edition.
+version.
 
 Syntax:
 
@@ -85,7 +85,7 @@ Fields:
 ----
 ---
 schema: product_as_individual_assembly_and_test
-editions:
+versions:
 - version: '2'
   mappings:
   - description: Applied_activity_assignment mapping updated
