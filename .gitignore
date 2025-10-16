@@ -2,6 +2,13 @@
 Gemfile.lock
 *.log.*
 *.err
+*.err.*
 relaton/
 iev/
 _site/
+document.xml
+document.pdf
+document.html
+document.rxl
+document.presentation.xml
+document.doc
