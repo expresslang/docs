@@ -40,4 +40,6 @@ include::sections/06-mapping-change.adoc[]
 
 include::sections/aa-examples.adoc[]
 
+include::sections/ab-schemas.adoc[]
+
 include::sections/az-bibliography.adoc[]
