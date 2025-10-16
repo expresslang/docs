@@ -3,7 +3,7 @@
 
 === General
 
-This annex provides example of the EXPRESS Changes YAML format.
+This annex provides examples of the EXPRESS Changes YAML format.
 
 === Schema change
 

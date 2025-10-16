@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=https://www.expresslang.org/schemas/changes/v1/schema_changes.yaml
 ---
 schema: support_resource_schema
-editions:
-- version: '2'
+versions:
+- version: 2
   description: |-
     The definitions of the following EXPRESS entity data types were modified:
 
@@ -15,7 +15,7 @@ editions:
   modifications:
   - type: FUNCTION
     name: bag_to_set
-- version: '4'
+- version: 4
   description: |-
     The following entity types had been introduced to support external element references outside the local population of entity instances:
 
