@@ -38,8 +38,8 @@ include::sections/05-schema-change.adoc[]
 
 include::sections/06-mapping-change.adoc[]
 
-include::sections/aa-examples.adoc[]
+include::sections/aa-schemas.adoc[]
 
-include::sections/ab-schemas.adoc[]
+include::sections/ab-examples.adoc[]
 
 include::sections/az-bibliography.adoc[]

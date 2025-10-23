@@ -23,6 +23,14 @@ This example shows schema changes made to the ARM
 include::../examples/arm.changes.yaml[]
 ----
 
+This example shows schema changes made to the ARM `Extended_basic_geometry_arm`
+schema, where an ENTITY is moved to another ARM schema.
+
+[source,yaml]
+----
+include::../examples/arm.changes.moved.yaml[]
+----
+
 This example shows schema changes made to the MIM
 `Document_and_version_identification_mim` schema.
 
@@ -31,6 +39,14 @@ This example shows schema changes made to the MIM
 include::../examples/mim.changes.yaml[]
 ----
 
+This example shows schema changes made to the MIM
+`Associative_draughting_elements_mim` schema, where an TYPE is moved to
+another resource schema.
+
+[source,yaml]
+----
+include::../examples/mim.changes.moved.yaml[]
+----
 
 === Mapping change
 
