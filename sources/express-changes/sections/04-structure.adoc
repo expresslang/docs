@@ -16,7 +16,7 @@ specification.
 schema: String (required)
   # Name of the EXPRESS schema
 versions:
-  - version: String (required)
+  - version: Integer (required)
     # Version number for this change version
     description: String (optional)
     # Description of changes in this version
