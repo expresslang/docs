@@ -7,6 +7,7 @@ metanorma:
       - sources/expressdocs-migration/document.adoc
       - sources/express-schema-manifest/document.adoc
       - sources/express-changes/document.adoc
+      - sources/express-mapping/document.adoc
 
   collection:
     organization: "EXPRESS Language Foundation"
