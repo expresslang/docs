@@ -4,7 +4,7 @@
 
 === General
 
-If a CalConnect deliverable is developed and such information as
+If an ELF deliverable is developed and such information as
 referred to in <<information-transparency>> has been disclosed,
 one of the following three situations may arise.
 
@@ -16,7 +16,7 @@ other parties on a nondiscriminatory basis on reasonable terms and
 conditions.
 
 Such negotiations are left to the parties concerned and are performed
-outside CalConnect.
+outside ELF.
 
 [[license-nd]]
 === Situation 2: Licensing in a non-discriminatory manner
@@ -25,7 +25,7 @@ The patent holder is willing to negotiate licences with other parties
 on a non-discriminatory basis on reasonable terms and conditions.
 
 Such negotiations are left to the parties concerned and are performed
-outside CalConnect.
+outside ELF.
 
 [[license-other]]
 === Situation 3: Licensing in other manners

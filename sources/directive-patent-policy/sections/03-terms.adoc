@@ -1,4 +1,4 @@
 
-[source="CCSTD"]
+[source="DIR101"]
 [[terms]]
 == Terms and definitions
