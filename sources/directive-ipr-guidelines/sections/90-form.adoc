@@ -1,49 +1,48 @@
 
 [[patent-form]]
 [appendix,obligation="normative"]
-== Patent statement and licensing declaration for CalConnect deliverables
+== Patent statement and licensing declaration for ELF deliverables
 
 _This declaration does not represent an actual grant of a license._
 
-_Definitions of terms used in this declaration are in accordance with CC/DIR {docnumber}._
+_Definitions of terms used in this declaration are in accordance with ELF {docnumber}._
 
 Please submit this form to:
 
 Executive Director +
-The Calendaring and Scheduling Consortium, Inc. +
-4390 Chaffin Lane +
-McKinleyville +
-California 95519 +
+EXPRESS Language Foundation +
+2093 Philadelphia Pike Ste 3311 +
+Claymont, Delaware 19703 +
 United States of America +
-Email: patents@calconnect.org
+Email: info@expresslang.org
 
 === Terms and definitions
 
 free of charge::
-patent holder will not seek any monetary compensation as part of the licensing arrangement (whether such compensation is called a royalty, a one-time licensing fee, etc.); patent holder is still entitled to require that the implementer of the relevant CalConnect standardization deliverable sign a license agreement that contains other reasonable terms and conditions (such as those relating to governing law, field of use, warranties, etc.); does not indicate that the patent holder is waiving all of its rights with respect to a patent, but only on the issue of monetary compensation
+patent holder will not seek any monetary compensation as part of the licensing arrangement (whether such compensation is called a royalty, a one-time licensing fee, etc.); patent holder is still entitled to require that the implementer of the relevant ELF standardization deliverable sign a license agreement that contains other reasonable terms and conditions (such as those relating to governing law, field of use, warranties, etc.); does not indicate that the patent holder is waiving all of its rights with respect to a patent, but only on the issue of monetary compensation
 
 patent::
-claims contained in and identified by patents, utility models and other similar statutory rights based on inventions (including applications for any of these) solely to the extent that any such claims are essential to the implementation of a CalConnect standardization deliverable
+claims contained in and identified by patents, utility models and other similar statutory rights based on inventions (including applications for any of these) solely to the extent that any such claims are essential to the implementation of an ELF standardization deliverable
 
 essential patent::
-patent is essential to implement a specific CalConnect standardization deliverable
+patent is essential to implement a specific ELF standardization deliverable
 
 patent holder::
 person or entity that owns, controls and/or has the ability to license patents
 
 reciprocity::
-patent holder shall only be required to license any prospective licensee if such prospective licensee will commit to license its patent(s) for implementation of the same relevant CalConnect standardization deliverable free of charge or under reasonable terms and conditions
+patent holder shall only be required to license any prospective licensee if such prospective licensee will commit to license its patent(s) for implementation of the same relevant ELF standardization deliverable free of charge or under reasonable terms and conditions
 
 assignment/transfer of patent rights::
 licensing declarations made pursuant to
-<<CC10003,clause="5.2">> or <<CC10003,clause="5.3">>
+<<DIR103,clause="5.2">> or <<DIR103,clause="5.3">>
 shall be interpreted as encumbrances that bind all
 successors-in-interest as to the transferred patents.
 Recognizing that this interpretation may not apply in all
 jurisdictions, any patent holder who has submitted a licensing
-declaration according to <<CC10003>> --
+declaration according to <<DIR103>> --
 be it selected as <<option-1,a)>> or <<option-2,b)>> on the
-"`Patent statement and licensing declaration for CalConnect deliverables`" --
+"`Patent statement and licensing declaration for ELF deliverables`" --
 who transfers ownership of a patent that is subject to
 such licensing declaration shall include appropriate
 provisions in the relevant transfer documents to ensure
@@ -89,10 +88,10 @@ pass:[__________________________]
 
 === Document type
 
-. [ ] CalConnect Standardization Deliverable
+. [ ] ELF Standardization Deliverable
 
-. [ ] CalConnect co-published Standardization Deliverable
-(please return this form to CalConnect and the appropriate
+. [ ] ELF co-published Standardization Deliverable
+(please return this form to ELF and the appropriate
 form to the co-publishing parties)
 
 
@@ -108,7 +107,7 @@ pass:[__________________________]
 
 === Licensing declaration
 
-The patent holder believes that it holds granted and/or pending applications for patents, the use of which would be required to implement the above document and hereby declares, in accordance with the CalConnect patent policy (see <<CC10003>>), that (check one option only):
+The patent holder believes that it holds granted and/or pending applications for patents, the use of which would be required to implement the above document and hereby declares, in accordance with the ELF patent policy (see <<DIR103>>), that (check one option only):
 
 . [[option-1]] [ ] The patent holder is prepared to grant a free of charge license to an unrestricted number of applicants on a worldwide, non-discriminatory basis and under other reasonable terms and conditions to make, use, and sell implementations of the above document.
 
@@ -124,7 +123,7 @@ The patent holder believes that it holds granted and/or pending applications for
 
 . [[option-3]] [ ] The patent holder is unwilling to grant licenses in accordance with provisions of either options <<option-1>> or <<option-2>> above.
 +
-In this case, the following information must be provided to CalConnect as part of this declaration: +
+In this case, the following information must be provided to ELF as part of this declaration: +
 +
 --
 * granted patent number or patent application number (if pending);

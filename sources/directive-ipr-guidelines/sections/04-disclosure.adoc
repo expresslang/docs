@@ -6,23 +6,23 @@
 === General
 
 This clause describes the principles of disclosure of patents
-that may affect CalConnect standardization deliverables produced
-by CalConnect.
+that may affect ELF standardization deliverables produced
+by ELF.
 
 This clause applies to any patent disclosed or drawn
-to the attention of CalConnect during the development
+to the attention of ELF during the development
 of and subsequent to the approval of deliverables.
 
 === Requirements
 
 ==== Participation obligation
 
-All parties participating in the standardization activities of CalConnect
-are obligated to inform CalConnect of
+All parties participating in the standardization activities of ELF
+are obligated to inform ELF of
 any known patent or to any known pending patent application,
 either its own or that of other entities,
-as mandated by <<CC10003,clause=1>>,
-where such parties include recipients of a draft CalConnect standardization deliverable at any stage.
+as mandated by <<DIR103,clause=4>>,
+where such parties include recipients of a draft ELF standardization deliverable at any stage.
 
 ==== Early disclosure
 
@@ -40,7 +40,7 @@ NOTE: This might not be possible when the first draft text appears since at this
 
 ==== External-originating disclosure
 
-Parties not participating in the standardization activities of CalConnect may also inform CalConnect to any known patent, either their own and/or of any third-party, that may cover a CalConnect deliverable.
+Parties not participating in the standardization activities of ELF may also inform ELF to any known patent, either their own and/or of any third-party, that may cover an ELF deliverable.
 
 
 === Method of disclosure
@@ -52,9 +52,9 @@ When disclosing their own patents, patent holders shall fill in the "`Patent Sta
 ==== Third-party patent disclosure
 
 Any communication drawing the attention to any third-party patent
-should be addressed to CalConnect in writing.
+should be addressed to ELF in writing.
 
-The Executive Director of CalConnect will then request the potential
+The Executive Director of ELF will then request the potential
 patent holder to submit a declaration form, if applicable.
 
 
@@ -62,12 +62,12 @@ patent holder to submit a declaration form, if applicable.
 
 Whether the identification of the patent took place before or after
 the approval of a deliverable,
-if a patent holder is unwilling to license under <<CC10003,clause=5.2>> or <<CC10003,clause=5.3>>, CalConnect will promptly advise the project owner(s) responsible for the affected deliverable so that appropriate action can be taken.
+if a patent holder is unwilling to license under <<DIR103,clause=5.2>> or <<DIR103,clause=5.3>>, ELF will promptly advise the project owner(s) responsible for the affected deliverable so that appropriate action can be taken.
 
 Such action shall include, but may not be limited to:
 
-* a review of the CalConnect standardization deliverable or its draft in order to remove the potential conflict; or
+* a review of the ELF standardization deliverable or its draft in order to remove the potential conflict; or
 
 * to further examine and clarify the technical considerations causing the conflict.
 
-These guidelines also apply to any Patent disclosed or drawn to the attention of the CalConnect subsequent to the approval of a deliverable.
+These guidelines also apply to any Patent disclosed or drawn to the attention of ELF subsequent to the approval of a deliverable.

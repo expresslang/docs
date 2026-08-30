@@ -1,9 +1,8 @@
-
 [bibliography]
 == Normative references
 
-* [[[CC10001,CC/DIR 10001]]], _CalConnect Directive: Standardization and publication_
+* [[[DIR101,ELF 101:2026]]], _ELF Directive: Standardization and publication_
 
-* [[[CC10002,CC/DIR 10002]]], _CalConnect Directive: Standard document requirements_
+* [[[DIR102,ELF 102:2026]]], _ELF Directive: Standard document requirements_
 
-* [[[CC10003,CC/DIR 10003]]], _CalConnect Directive: Patent policy_
+* [[[DIR103,ELF 103:2026]]], _ELF Directive: Patent policy_

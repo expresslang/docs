@@ -1,22 +1,22 @@
-
 == Introduction
 
 === General
 
-CalConnect is committed to expanding the realm of standards
-in collaborative technologies with a focus on interoperability
-across the globe and communities of practice.
+ELF is committed to expanding the realm of standards for information
+modelling and programming languages, with a focus on the EXPRESS
+language family and interoperability across the globe and communities
+of practice.
 
-As a proponent of open standards, CalConnect has adopted a patent policy
-in <<CC10003>> to align IPR practice with major international
+As a proponent of open standards, ELF has adopted a patent policy
+in <<DIR103>> to align IPR practice with major international
 standardization bodies including ISO, IEC and ITU.
 
 === Purpose
 
 This document describes guidelines for the implementation of the
-CalConnect patent policy specified in <<CC10003>>
+ELF patent policy specified in <<DIR103>>
 in the standardization and publication processes described
-in <<CC10001>>.
+in <<DIR101>>.
 
 The intent of this document is to:
 
@@ -41,5 +41,4 @@ The Patent Policy encourages the early disclosure and identification of Patents 
 The Organizations should not be involved in evaluating patent relevance or essentiality with regards to Recommendations | Deliverables, interfere with licensing negotiations, or engage in settling disputes on Patents; this should be left - as in the past - to the parties concerned.
 
 Organization-specific provisions are contained in Part II of this document. However, it is understood that those Organization-specific provisions shall contradict neither the Patent Policy nor the Guidelines.
-
 ////
