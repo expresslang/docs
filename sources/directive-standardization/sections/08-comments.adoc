@@ -1,0 +1,43 @@
+
+[[comments]]
+== Comments
+
+=== General
+
+The commenting process is managed by the TCC. The TCC is
+responsible for operating the CalConnect dedicated commenting
+site and the distribution of formal comments.
+
+
+[[comments-formal]]
+=== Formal comments
+
+Formal comments are binding comments where the project team
+whose work is being commented on must respond to.
+
+These comments received are considered "`open comments`", meaning
+that these comments will be published to the CalConnect membership.
+
+Formal comments shall be submitted via a designated site in a
+structured format, where comments submitted are not re-distributed
+(reflected) to other commenters. This is to prevent submitted
+comments from influencing other potential commenters that have
+not yet commented.
+
+Formal comments on a standardization deliverable shall be shared
+with the owning TC within 2 weeks of receiving them.
+
+
+[[comments-informal]]
+=== Informal comments
+
+These comments do not require a response from the project team
+whose work is being commented on.
+
+
+[[comments-resolution]]
+=== Resolution of comments
+
+Comments and feedback on standardization work items
+shall be considered impartially and judged purely according
+to their technical contributions to the work item.

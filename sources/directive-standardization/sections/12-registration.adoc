@@ -1,0 +1,14 @@
+
+[[agency]]
+== Maintenance agency and registration authority
+
+=== General
+
+CalConnect recognizes that a maintenance agency or
+registration authority is required for the successful implementation of
+certain standardization deliverables.
+
+=== Default volunteer role
+
+The TCC shall serve as the maintenance agency or registration authority
+for CalConnect standardization deliverables as necessary.

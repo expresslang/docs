@@ -1,0 +1,121 @@
+
+[[public-review]]
+== Public review process
+
+
+=== General
+
+A public review period of 60 days is required for compliance to
+<<WTOTBTP,clause=1.d>>, which CalConnect adheres to.
+
+
+=== Timing
+
+A 60-day public review shall be held in the DIS or FDIS stages
+of the standardization deliverable.
+
+Under co-development, the public review shall be held on
+the first instance of reaching the DIS stage:
+
+* Comments to CalConnect shall be performed through CalConnect's public review procedure.
+* Comments to an ISO TC shall be performed according to <<ISODIR1>> and <<ISODIR1C>>.
+* Comments to an external standardization body shall be according to their own procedures.
+
+The co-development parties shall agree to synchronization of the dates
+of review periods for the maximum benefit to the joint work item.
+
+////
+Public draft period will be an open one at CalConnect, it will be at
+the stage of pre-publication.
+////
+
+
+=== Informal comments via public review mailing list
+
+Informal comments can be solicited from and posted to the
+CalConnect public review mailing list.
+
+This list is open to subscription by any interested parties,
+but subscription will be subject to approval by the list
+moderator and the list will be continuously moderated.
+
+The Charter and Rules of Use for the list include:
+
+. It is the responsibility of all participants on the list to ensure
+that their comments adhere to the CalConnect Intellectual Property
+Rights policy with respect to contributions.
+
+. While all participants on this list are free to contribute
+suggestions and comments, the actual process of development and
+revision of any CalConnect Document must be made by the Technical
+Committees developing the document, and by members of the Consortium.
+
+Participants on the public review mailing list may offer comments not
+only upon documents currently posted for review and comment, but upon
+published documents of the Consortium.
+
+The TCC committee has overall control of the public review list
+and process including what documents may be posted, the duration of
+postings, etc.
+
+For details of handling informal comments, see <<comments-informal>>.
+
+
+=== Formal comments via dedicated site
+
+Formal comments have to be submitted via the CalConnect commenting site.
+
+In a public review process where formal comments are received:
+
+* the full list of formal comments are only viewable by CalConnect
+members;
+
+* formal comments from non-CalConnect members should be addressed
+and communicated to the commenter individually.
+
+For details of handling formal comments, see <<comments-formal>>.
+
+
+
+[[announcement-channels]]
+=== Announcement channels
+
+When a draft document is made available for public review, it shall be
+announced:
+
+* on the public review page and on the CalConnect home page;
+* on the public review mailing list; and
+* on the general `calconnect` mailing list.
+
+
+==== Eligibility
+
+. At the request of the Chair of the owning TC and
+upon approval of TCC, any draft intended for
+publication is eligible for posting to the <<announcement-channels>>.
+
+. A document or section of a document may be posted for public review
+and comment at any point within its development but generally it should
+be well-formed and close to final draft before such posting.
+
+. If a section of a larger document is posted to the public review
+list, the context of the section must be made clear so that relevant
+comments can be made.
+
+. When a document previously posted for public review is finally
+published, a notification of the fact will be posted to the public
+review list along with any title changes.
+
+
+==== TC responsibilities
+
+. Since posting a document for public review and comment invites non-
+Consortium individuals to participate, the owning TC is responsible
+for monitoring comments on the public review list and acting upon
+them as appropriate.
+
+. Since any participant on the public review list may comment upon any
+published document at any time, the list moderator will monitor the
+list for comments on such documents and bring those comments to the
+attention of TCC.
+

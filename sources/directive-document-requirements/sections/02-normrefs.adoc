@@ -1,0 +1,5 @@
+
+[bibliography]
+== Normative References
+
+* [[[CCSTD,CC/DIR 10001:2018]]], _CalConnect Directive: Standardization and publication_

@@ -1,0 +1,28 @@
+
+== Scope
+
+This document provides requirements on document structure of the following types of CalConnect publication:
+
+* Directive
+
+* Standard
+
+* Guide
+
+* Specification
+
+* Amendment
+
+* Technical corrigendum
+
+* Report
+
+These publication types are described in <<CCSTD>>.
+
+This document does not apply to the following types of documents
+produced by CalConnect, although processes described in this document
+can be optionally used as guidance:
+
+* policy statements;
+* internal administrative documents; and
+* how-to guides.

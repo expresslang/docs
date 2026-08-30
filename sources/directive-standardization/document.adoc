@@ -1,0 +1,46 @@
+= CalConnect Directive: Standardization and publication
+:title: CalConnect Directive: Standardization and publication
+:docnumber: 10001
+:copyright-year: 2019
+:doctype: directive
+:edition: 1
+:status: published
+:revdate: 2019-01-18
+:published-date: 2019-01-18
+:technical-committee: PUBLISH
+:imagesdir: images
+:mn-document-class: cc
+:mn-output-extensions: xml,html,pdf
+:local-cache-only:
+:data-uri-image:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/00-intro.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-normrefs.adoc[]
+
+include::sections/03-terms.adoc[]
+
+include::sections/04-authority.adoc[]
+
+include::sections/05-document-types.adoc[]
+
+include::sections/06-process.adoc[]
+
+include::sections/07-public-review.adoc[]
+
+include::sections/08-comments.adoc[]
+
+include::sections/09-corrections.adoc[]
+
+include::sections/10-ipr.adoc[]
+
+include::sections/11-maintenance.adoc[]
+
+include::sections/12-registration.adoc[]
+
+include::sections/99-bibliography.adoc[]
+

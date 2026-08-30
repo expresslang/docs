@@ -1,0 +1,20 @@
+
+== Introduction
+
+CalConnect is committed in expanding the realm of open
+collaboration standards across the globe and across communities of
+practice.
+
+To facilitate its mission, the CalConnect Board of Directors has decided
+to align standardization and publication processes with international
+best practices, such as the ISO standardization process, and the
+<<WTOTBTP>>.
+This document aims to achieve the said intention.
+
+The document describes the CalConnect standardization process, from
+conception, IPR policy, TC establishment, collaboration policies
+(liaisons), to the publishing of work items.
+
+Processes described in this document contain parts that relate
+to all CalConnect technical committees and the TCC, which
+carries responsibility of implementing these processes.

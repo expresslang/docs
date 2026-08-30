@@ -1,0 +1,52 @@
+
+[[authority]]
+== Authority
+
+=== General
+
+TC PUBLISH is responsible for developing the corresponding processes
+and tools, while the TCC for their employment.
+
+=== TC PUBLISH
+
+TC PUBLISH is responsible for:
+
+* policy development: providing recommendations to the Board of
+  Directors and the TCC on the CalConnect standardization and
+  publication processes;
+
+* policy establishment: developing and supporting process
+  documents, including:
+
+** this document; and
+** CalConnect publication requirements; and
+
+* maintenance: periodic review and perform amendments necessary
+  to support the processes and requirements established in this
+  document.
+
+=== TCC
+
+The TCC is responsible for:
+
+* execution: faithful execution and maintenance of the CalConnect
+  standardization process;
+
+* enforcement: enforcing CalConnect publication requirements on the publication
+  of CalConnect deliverables;
+
+* mediation: raising issues and problems encountered concerning the processes
+  and procedures described in this document to TC PUBLISH for
+  further consideration; and
+
+* coordination: supporting liaisons between CalConnect technical committees and
+  project teams with corresponding parties of external standardization
+  bodies.
+
+////
+=== Terms of reference
+
+The terms of reference for the co-ordination group will be developed
+and accepted by OGC and {collaborative-iso-tc} prior to the establishment of the
+group.
+////

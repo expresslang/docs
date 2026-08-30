@@ -1,0 +1,566 @@
+
+[[process]]
+== Standardization process
+
+=== General
+
+Every CalConnect deliverable starts as a project.
+
+A CalConnect project goes through the following processes:
+
+* starts with a proposal;
+* the proposal is given to the approving entity for enactment;
+* assigns a committee as project owner once the project is approved;
+* the committee creates one or more working drafts from the proposal;
+* the committee decides to endorse a committee draft;
+* the approved committee draft becomes a standards draft
+* the draft standard is given to the approving entity for endorsement;
+* the draft standard is approved for publication as a standard.
+
+//NOTE: TODO: joint publishing
+
+=== Project stages
+
+The following table provides a mapping between CalConnect project stages and
+ISO project stages. This document identifies stages
+according to the CalConnect project stage names.
+
+[cols="1,1,1,1,1",options="header"]
+.Alignment between ISO and CalConnect project stages
+|===
+|Stage identifier
+|CalConnect stage
+|ISO harmonized stage (<<ISODIR1>>)
+|CalConnect deliverable
+|ISO deliverable
+
+|*Preliminary*
+|00 Preliminary
+|00 Preliminary
+|PWI
+|PWI
+
+|*Proposal*
+|10 Proposal
+|10 Proposal
+|NWIP
+|NWIP
+
+|*Preparatory*
+|20 Preparatory
+|20 Preparatory
+|WD
+|WD
+
+|*Committee*
+|30 Committee
+|30 Committee
+|CD
+|CD
+
+|*Enquiry*
+|40 Enquiry
+|40 Enquiry
+|DS
+|DIS
+
+|*Approval*
+|50 Approval
+|50 Approval
+|FDS
+|FDIS
+
+|*Publication*
+|60 Publication
+|60 Publication
+|CS
+|IS
+
+|*Review*
+|90 Review
+|90 Review
+|
+|
+
+|*Withdrawal*
+|95 Withdrawal
+|95 Withdrawal
+|
+|
+
+|===
+
+
+=== Project track
+
+There is only one project track in CalConnect as considered by the TCC.
+
+
+==== Co-development guidelines
+
+For projects under co-development agreements, CalConnect agrees to
+adopt a developmental track not slower than a corresponding track
+selected by the external standardization body to ensure
+synchronicity between development outcome and publication.
+
+
+
+=== Project ownership
+
+==== General
+
+All CalConnect non-administrative documents must be owned by a single
+Technical Committee (the "`owning`" Technical Committee) even if two
+or more TCs participate in the work of developing the document.
+
+
+==== Transition of ownership on TC retirement
+
+When a TC completes its scope of work and is shut down, the ownership
+of its documents moves to the TCC.
+
+TCC may retain ownership of a document once assigned to it, or
+it may assign the document to a different or new Technical Committee,
+generally if follow-on work or maintenance is required on the document.
+
+
+=== Project membership
+
+==== General
+
+The owning TC is responsible for maintaining expert membership of a
+project group.
+
+CalConnect members are allowed to nominate experts to the project group
+with approval of the owning TC.
+
+At least one person, at most two, serves as project leader, as decided
+by the owning TC.
+
+The project leader(s) shall assume project editorship unless that
+activity is specifically assigned to another individual.
+
+
+==== External members
+
+Individuals who are not members of CalConnect are only allowed to participate in
+a project unless specifically authorized by the project owning TC, in consultation
+with the project leader, and approved by the TCC.
+
+
+==== Co-development guidelines
+
+Parties may bring in additional collaborators given approval by the
+corresponding JCG, that the provisions of this agreement
+are fully satisfied by agreements present between all collaborators.
+
+
+
+=== Project stages
+
+
+==== Preliminary stage
+
+===== Initiation methods
+
+A standardization project can be initiated in one of the following ways:
+
+. a project defined as part of the charter process of a TC;
+
+. a TC decides to create a new project as an addition to its program of work;
+
+. the TCC or the Board of Directors decides that a project should
+be initiated and assigns it to a Technical Committee.
+
+
+===== Initiation requirements
+
+When a project is initiated, the following items must be defined
+by the proposer as part of the proposal to the TCC:
+
+. scope
+
+. target audience
+
+. relevant regulatory or market needs (as feasible and appropriate)
+  (this satisfies <<WTOTBTP,clause=4.a>>)
+
+. current scientific and technological developments
+  (this satisfies <<WTOTBTP,clause=4.a>>)
+
+. schedule for development and publication
+
+. proposer, project leader
+
+All documents other than administrative documents must have an editor
+or editors who are members of the Technical Committee(s) developing the
+document.
+
+
+
+===== Confirmation
+
+Once a project is confirmed initiation:
+
+. the project shall be assigned a project number as decided by the TCC;
+
+. the project's name and stage shall be listed in the project registry
+  (this satisfies <<WTOTBTP,clause=1.a>>); and
+
+. the project will be announced by the TCC to all members with a
+  brief description of its scope (including objective and rationale)
+  at an early enough stage that facilitates amendments and comments
+  (this satisfies <<WTOTBTP,clause=1.b>>).
+
+NOTE: This document supports the creation of a project registry.
+
+
+===== First draft
+
+A first draft of the standardization deliverable may be created
+for proposal submission, or may be created in the Committee stage.
+
+Disclaimers and necessary statements such as relating to IPR and
+copyright shall be placed in an obvious place in the draft.
+
+
+===== Co-development guidelines
+
+The draft shall be created through a collaboration process between
+experts from both organizations, or at least, the proposing
+organization should have received input from the other organization.
+
+At the first instance where a CalConnect project wishes to co-develop
+with an external standardization body, it should be raised to the TCC.
+The JCG shall consult the stakeholders to determine appropriateness
+of the project and advise the proposer.
+
+If the project is rejected by the TCC, its output may still be
+developed within CalConnect if it is appropriate, and its output may
+still be proposed to the TCC for co-development in later stages.
+
+
+
+==== Proposal stage
+
+When the TCC determines interest within CalConnect to develop the
+proposed project, the project initiator should submit a proposal
+to the TCC for ballot indicating its wish to develop the proposed project.
+
+If accepted, the project shall be adopted by a CalConnect TC.
+Members of the project group shall be represented by experts.
+This project shall then be listed in the TCC register of projects.
+
+If rejected, its output may still be developed by one or more members
+of CalConnect if appropriate, and the resulting output may still be
+proposed to the TCC for development in later stages.
+
+
+A "`Report`" document type shall be published upon a successful ballot
+of two-thirds approval at this stage.
+
+
+===== Co-development guidelines
+
+The TCC should also consider JCGs whether a proposal is suitable
+to be co-developed with existing liaison organizations or
+external standardization bodies.
+
+The TCC may suggest the project group to co-develop the project
+under one or more JCGs.
+
+
+==== Preparatory stage
+
+This is an optional stage.
+
+The goal of the preparatory stage is to create a "`working draft`"
+of the deliverable approved by the project group within the TC.
+
+Once the project team decides the working draft has advanced
+to being a "`committee draft`" or a "`draft standard`", this
+stage ends.
+
+There is no ballot at this stage.
+
+
+==== Committee stage
+
+This is an optional stage.
+
+The goal of the committee stage is to create a "`committee draft`"
+of the deliverable approved by the TC.
+
+The owning TC distributes the committee draft and may select a 8-week or 10-week
+comment period for TC members to comment.
+
+Within 4 weeks of completion of the comment period, the owning TC shall distribute
+all formal comments received during ballot to TC members.
+
+Given the results of comments, the Chair of the TC, considering TC consensus,
+in consultation with the project leader (if necessary),
+shall decide on the below outcomes:
+
+. to prepare and circulate a revised committee draft for consideration; or
+
+. to register the committee draft for the enquiry stage.
+
+In case TC consensus is unclear from the results, a ballot (<<process-balloting>>) can be launched
+to determine consensus for stage advancement.
+
+A "`Specification`" document type shall be published upon advancement
+to the enquiry stage.
+
+
+[[stage-enquiry]]
+==== Enquiry stage
+
+The goal of the enquiry stage is to create a "`draft standard`"
+of the deliverable approved by the TC.
+
+The public review period (<<public-review>>) shall be started within
+4 weeks of entering this stage.
+
+Once the owning TC deems a document under development to be
+ready for publication, the Chair of the owning TC shall arrange
+for an official ballot (<<process-balloting>>) amongst TC members.
+"`No`" votes must be accompanied with technical reasons.
+
+If no "`No`" votes were registered in the DIS ballot,
+the project is deemed to have unanimous support. It shall be fast-tracked
+towards the Approval stage for TCC ballot.
+
+If the ballot was successful but at least one "`No`" vote has been received,
+the project is advanced to Approval stage.
+
+If the ballot failed, the Chair of the owning TC, in consultation
+with the project leader to decide whether to prepare and circulate a revised
+draft standard for re-balloting.
+
+
+===== Co-development guidelines
+
+In these stages, members of the project groups within CalConnect
+and the external standardization body shall collaborate closely
+to ensure efficient and effective development of the deliverable of
+the respective stages. The deliverable shall be developed
+jointly by experts of the collaborating organizations.
+
+The project stages of the collaborating organizations shall
+be synchronized correspondingly.
+
+Specifically:
+
+* If a deliverable is approved by ballot at an ISO TC,
+  CalConnect will advance the project stage at its
+  project group accordingly.
+* If a deliverable is rejected by ballot at an ISO TC,
+  CalConnect will not advance project stage at its
+  project group, unless the ISO TC re-ballot approves
+  advancement of the deliverable.
+* In cases where a development stage is optional and skipped
+  in accordance with <<ISODIR1>> and <<ISODIR1C>>, CalConnect
+  shall set the stage of its project at the corresponding
+  stage.
+
+
+[[stage-approval]]
+==== Approval stage
+
+The goal of the approval stage is to create a "`final draft standard`"
+of the deliverable approved by the CalConnect membership.
+
+The public review period (<<public-review>>) shall be started within
+4 weeks of entering this stage, unless the document has already
+been reviewed publicly at the Enquiry stage (<<stage-enquiry>>).
+
+A "`last call`" for formal comments shall be issued by the Chair of
+the owning TC to both TCC and to the full CalConnect mailing list
+of 8 weeks.
+
+The formal commenting process is described in detail at <<comments-formal>>.
+
+After the close of the commenting period, the Chair of TCC shall
+distribute the comments to the CalConnect membership within
+4 weeks of the close, and conduct a 8-week ballot (<<process-balloting>>)
+of TCC members for a vote to approve publication.
+
+All TCC members are required to vote in this ballot. A TCC member
+that did not vote in the TCC poll is considered to have violated
+membership terms of the TCC, and has a 3-week period to rectify.
+
+"`No`" votes from a TCC member must be accompanied with constructive
+comments.
+
+If the ballot was successful, the project is deemed to be ready for
+publication and is advanced to the publication stage.
+
+If the ballot failed, the Chair of the owning TC, in consultation
+with the project leader to decide whether to prepare and circulate a revised
+final draft standard for re-balloting.
+
+
+[[draft-stages]]
+==== Draft development stages (Preparatory, Committee and Enquiry stages)
+
+. Each new draft version of the document as it is developed shall be
+posted by the editor(s) on the CalConnect Document Repository. A
+version is defined as a checkpoint where the developers want review
+from individuals other than active contributors, typically at the
+end of a development stage when the draft is a candidate for ballot.
+
+. The availability of each new draft version shall be announced
+to all TCs and as appropriately, to external liaison or partner
+working groups (this satisfies <<WTOTBTP,clause=1.c>>).
+
+. A draft version may be announced to the `calconnect-l` mailing
+list if CalConnect-wide membership comment is requested
+(this satisfies <<WTOTBTP,clause=1.c>>).
+
+. A draft version may be posted for external review and
+comments upon approval by TCC (see <<public-review>>).
+This is normally be done at the Enquiry and Approval stages,
+where the draft is considered more mature for appropriate
+external input.
+
+. Once initial approval is given by TCC, a draft may be posted
+for external review and comment multiple times.
+
+In every of the development stages, resolution of all outstanding
+comments is required to proceed towards ballot.
+
+
+
+
+
+[[pre-publication]]
+==== Pre-publication stages (Enquiry and Approval stages)
+
+Once a "`draft standard`" or a "`final draft standard`" is approved
+towards publication, a public review period ensues.
+
+The public review process is described in <<public-review>>.
+
+
+
+==== Publication stage
+
+// TODO:
+
+===== Distribution
+
+Once TCC approves a document for publication, the Chair of the
+owning TC shall forward the final draft standard to the
+Executive Director of the Consortium for publication.
+
+A standard designated for public access will be distributed
+on the CalConnect document register (this satisfies <<WTOTBTP,clause=1.e>>).
+
+Internal documents are made available only to members of CalConnect
+via the members area of the CalConnect website, and are registered in
+the CalConnect Internal Document Register.
+
+For a co-published document, the following procedures apply:
+
+* For an ISO/CC dual-logo standard, after an ISO ballot on
+  the acceptance of a joint work item as DIS, FDIS or IS, the
+  joint work item will be published as a CalConnect Standard.
+
+
+===== Statement changes
+
+The "`boilerplate`" statements of IP, appropriate usage and
+disclaimer will be changed to the external (public) statement.
+
+
+===== Registration at the public document register
+
+The name, category, version and project number of the deliverable
+shall be registered in the CalConnect Public Document Register.
+
+
+
+=== Abandonment
+
+==== Co-development guidelines
+
+A joint work item may be abandoned by one of the two parties if it sees
+it being inappropriate or is no longer interested or able to contribute
+to the joint work item. Each party is allowed to abandon the joint
+work, which at that point will become sole work of the other party.
+
+A notice of such must be sent by the abandoning party to the JCG and
+distributed by both parties to its members.
+
+The abandoning party, if the abandoned work is carried on by the other
+party, is required to explicitly agree that the copyright of such work
+is to be waived to the other party to allow publication of the document.
+
+If the abandons party wishes to rejoin an abandoned work item, it is
+agreed in this agreement that it is allowed, given a notice is filed at
+the JCG, unless in exceptional circumstances.
+
+
+
+
+[[process-balloting]]
+=== Balloting
+
+A ballot is launched upon gauging consensus within a group
+(TC, TCC or amongst all members).
+
+In each ballot, a member is allocated three options:
+
+* Yes
+* No
+* Abstain
+
+A "`No`" vote must be accompanied by constructive comments. "`Abstain`" votes
+are not counted against the outcome.
+
+Consensus is considered to have been reached when there are two-thirds of "`Yes`" votes.
+
+
+
+=== Availability of working documents
+
+Drafts and working documents are available according to
+each party's normal practices.
+
+
+
+=== Promotional activities in co-developed projects
+
+Promotional programs will be shared between {collaborative-iso-tc}
+and CalConnect for the purpose of coordinating marketing activities
+via the JCG.
+
+
+
+=== External progression
+
+In some cases, CalConnect deliverables are sent to be progressed
+at another standards body:
+
+* upon completion of the Approval stage, a CalConnect document may be sent
+  immediately to an external standardization body for progression
+  to become a standard; and
+
+* if a published CalConnect document is subsequently decided to
+  be forwarded to another standards body for progression.
+
+In these situations, the CalConnect document shall be accompanied by a
+link at the CalConnect website, that provides the document at the target standards
+body, completely with document number, title, etc. given by that
+standards body.
+
+It is anticipated that such documents will be progressed and modified
+according to the processes of the recipient standards body. CalConnect
+shall attempt to ensure that the link remains valid, and if
+possible for the most current version of the document.
+
+
+=== Document requirements
+
+Requirements of a CalConnect document are stated in <<CC10002>>.
+

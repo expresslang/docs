@@ -1,0 +1,30 @@
+= CalConnect Directive: Patent policy
+:title: CalConnect Directive: Patent policy
+:docnumber: 10003
+:copyright-year: 2019
+:language: en
+:doctype: directive
+:edition: 1
+:status: published
+:revdate: 2019-01-18
+:published-date: 2019-01-18
+:script: Latn
+:technical-committee: PUBLISH
+:imagesdir: images
+:mn-document-class: cc
+:mn-output-extensions: xml,html,pdf
+:local-cache-only:
+:data-uri-image:
+
+include::sections/00-foreword.adoc[]
+include::sections/00-intro.adoc[]
+
+include::sections/01-scope.adoc[]
+include::sections/02-normrefs.adoc[]
+include::sections/03-terms.adoc[]
+include::sections/04-policy.adoc[]
+include::sections/05-licensing.adoc[]
+include::sections/06-declaration.adoc[]
+
+include::sections/99-bibliography.adoc[]
+
