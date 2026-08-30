@@ -1,7 +1,6 @@
-
 == Scope
 
-This document provides requirements on document structure of the following types of CalConnect publication:
+This document provides requirements on document structure of the following types of ELF publication:
 
 * Directive
 
@@ -17,10 +16,10 @@ This document provides requirements on document structure of the following types
 
 * Report
 
-These publication types are described in <<CCSTD>>.
+These publication types are described in <<DIR101>>.
 
 This document does not apply to the following types of documents
-produced by CalConnect, although processes described in this document
+produced by ELF, although processes described in this document
 can be optionally used as guidance:
 
 * policy statements;
