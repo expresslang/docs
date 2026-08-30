@@ -1,4 +1,3 @@
-
 [[document-types]]
 == Document types
 
@@ -7,14 +6,14 @@ document may appear in more than one category, if appropriate.
 
 === Directive
 
-Internal, normative documents approved by the CalConnect Board of Directors,
-developed by TC PUBLISH, that provides requirements for
-internal CalConnect processes.
+Internal, normative documents approved by the ELF Board of Directors,
+developed by the TCB, that provides requirements for
+internal ELF processes.
 
 
 === Standard
 
-Normative documents created through the CalConnect standardization process
+Normative documents created through the ELF standardization process
 that provide requirements, specifications or guidelines for the public.
 
 Requirements in standards shall be based on objective performance
@@ -24,7 +23,7 @@ rather than based on descriptive characteristics.
 === Guide
 
 Informative, internal documents that describe guidelines for the work of
-CalConnect technical committees.
+ELF technical committees.
 
 Often a document discussing problems or issues and making suggestions for
 action.
@@ -44,13 +43,13 @@ towards a Standard.
 
 === Amendment
 
-Normative documents that amend a published CalConnect document, such as a
+Normative documents that amend a published ELF document, such as a
 Standard.
 
 
 === Technical corrigendum
 
-Document that describes a minor amendment of a published CalConnect
+Document that describes a minor amendment of a published ELF
 document, that does not affect the overall validity of the original
 document.
 
@@ -67,7 +66,7 @@ not contain suggestions for action, except incidentally.
 Intended for internal or public consumption.
 
 [example]
-A report on a CalConnect conference.
+A report on an ELF conference.
 
 
 === Administrative

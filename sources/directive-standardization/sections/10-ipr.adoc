@@ -1,4 +1,3 @@
-
 [[ipr]]
 == Intellectual property rights
 
@@ -9,20 +8,20 @@ Text of all working documents as well as co-developed/co-published deliverables 
 === Copyright
 
 Copyright of standardization deliverables created under this document
-will be jointly owned by CalConnect and its authors.
+will be jointly owned by ELF and its authors.
 
 
 === Member-sourced documents
 
-Authors of CalConnect deliverables grant CalConnect a world-wide,
+Authors of ELF deliverables grant ELF a world-wide,
 non-exclusive, non-sub-licensable license
 (except for the submission and adoption by other standardization bodies),
-to use contents of submitted documents to CalConnect,
+to use contents of submitted documents to ELF,
 for the development and publishing of the deliverables.
 
 === Patented content
 
-Patented content in a standard will be governed by the CalConnect IPR policy.
+Patented content in a standard will be governed by the ELF IPR policy.
 
-Any patents involved knowingly in a CalConnect deliverable must be made
+Any patents involved knowingly in an ELF deliverable must be made
 transparent prior to the DIS stage.

@@ -1,4 +1,3 @@
-
 [[maintenance]]
 == Maintenance of deliverables
 
@@ -7,7 +6,7 @@
 The review period of a standardization deliverable is 5 years.
 
 The review shall be performed by the owning TC, if it has been
-disbanded, the TCC.
+disbanded, the TCB.
 
 === Updates
 
@@ -35,4 +34,3 @@ circumstances.
 When a review determines that a published item should be
 withdrawn, it should be withdrawn from the list of published
 standards.
-

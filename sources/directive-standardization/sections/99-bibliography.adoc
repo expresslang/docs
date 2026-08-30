@@ -1,10 +1,9 @@
-
 [bibliography]
 == Bibliography
 
 * [[[WTOTBT,WTO Technical Barriers To Trade Agreements]]], World Trade Organization, _The WTO Agreements Series Technical Barriers to Trade_
 
-* [[[CC10002,CC/DIR 10002:2018]]], _CalConnect Directive: Standard document requirements_
+* [[[DIR102,ELF 102:2026]]], _ELF Directive: Standard document requirements_
 
 * [[[ISODIR1,ISO/IEC Directives, Part 1]]], _ISO/IEC Directives, Part 1, Procedures for the technical work_
 
