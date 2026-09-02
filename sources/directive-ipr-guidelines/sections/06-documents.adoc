@@ -6,9 +6,8 @@
 
 All drafts submitted for comment shall include on the cover page the following text:
 
-// invited or obligated?
 ____
-Recipients of this draft are obligated to submit notification of any relevant patent rights of which they are aware and to provide supporting documentation (such as, together with comments).
+Recipients of this draft are invited to submit, with their comments, notification of any relevant patent rights of which they are aware and to provide supporting documentation.
 ____
 
 === Notification

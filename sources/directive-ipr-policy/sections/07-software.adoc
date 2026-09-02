@@ -9,7 +9,7 @@ the following rules must be adhered to.
 === Source code contributions
 
 Software contributions included in a standardization deliverable must have
-its source code made available for free and not require implementers to be
+its source code made available free of charge and not require implementers to be
 subject to a third-party license that does not meet the software licensing
 requirements set forth in this clause.
 

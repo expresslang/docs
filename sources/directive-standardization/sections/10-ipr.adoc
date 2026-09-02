@@ -8,9 +8,23 @@ Text of all working documents as well as co-developed/co-published deliverables 
 === Copyright
 
 Copyright of standardization deliverables created under this document
-will be jointly owned by ELF and its authors.
+is vested in ELF.
+
+Copyright of contributions remains with their authors; contributors
+grant ELF the license described under <<member-sourced>> for the
+development and publishing of the deliverables.
 
 
+[[publication-license]]
+=== Publication license
+
+In fulfilment of the commitment that the text of ELF documents remains
+free of restrictions that would limit their application, ELF makes its
+published documents available to the public under the Creative Commons
+Attribution 4.0 International Public License (CC BY 4.0).
+
+
+[[member-sourced]]
 === Member-sourced documents
 
 Authors of ELF deliverables grant ELF a world-wide,

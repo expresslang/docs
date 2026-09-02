@@ -14,7 +14,7 @@ EXPRESS Language Foundation +
 2093 Philadelphia Pike Ste 3311 +
 Claymont, Delaware 19703 +
 United States of America +
-Email: info@expresslang.org
+Email: patents@expresslang.org
 
 === Terms and definitions
 

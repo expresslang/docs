@@ -73,7 +73,7 @@ according to the ELF project stage names.
 |*Publication*
 |60 Publication
 |60 Publication
-|CS
+|ES
 |IS
 
 |*Review*
@@ -135,7 +135,7 @@ activity is specifically assigned to another individual.
 ==== External members
 
 Individuals who are not members of ELF are only allowed to participate in
-a project unless specifically authorized by the project owning TC, in consultation
+a project if specifically authorized by the project owning TC, in consultation
 with the project leader, and approved by the TCB.
 
 
@@ -389,11 +389,15 @@ Internal documents are made available only to members of ELF
 via the members area of the ELF website, and are registered in
 the ELF Internal Document Register.
 
-For a co-published document, the following procedures apply:
+[[dual-logo]]
+===== Dual-logo documents
 
-* For an ISO/CC dual-logo standard, after an ISO ballot on
-  the acceptance of a joint work item as DIS, FDIS or IS, the
-  joint work item will be published as an ELF Standard.
+A dual-logo document is a deliverable co-published by ELF and an
+external standardization body under the marks of both parties.
+
+For a dual-logo document, after the collaborating standardization
+body accepts a joint work item for publication, the joint work item
+will be published by ELF under the corresponding document type.
 
 
 ===== Statement changes
@@ -459,11 +463,15 @@ decision taken in the ELF standardization process, including decisions
 taken by a technical committee or the TCB.
 
 An appeal shall be submitted in writing to the Executive Director
-within 30 days of the announcement of the decision, stating the
-decision appealed against and the grounds for the appeal.
+within 30 days of the decision being announced to the ELF membership
+or published in the corresponding ELF document repository, stating
+the decision appealed against and the grounds for the appeal.
 
 The Executive Director shall present the appeal to the Board of
 Directors, which considers the appeal and decides upon it.
+
+Members of the Board of Directors who took part in the contested
+decision shall not take part in deciding the appeal.
 
 The decision of the Board of Directors on an appeal is final.
 
