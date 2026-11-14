@@ -5,6 +5,7 @@ metanorma:
       - sources/express-pretty/document.adoc
       - sources/annotated-express/document.adoc
       - sources/expressdocs-migration/document.adoc
+      - sources/expressdocs-framework/document.adoc
       - sources/express-schema-manifest/document.adoc
       - sources/express-changes/document.adoc
       - sources/express-mapping/document.adoc

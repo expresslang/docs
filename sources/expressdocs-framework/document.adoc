@@ -1,0 +1,57 @@
+= EXPRESSdocs Publishing Framework
+:docnumber: 5002
+:edition: 0
+:copyright-year: 2026
+:revdate: 2026-11-14
+:language: en
+:title-main-en: EXPRESSdocs Publishing Framework
+:doctype: standard
+:technical-committee: EXPRESS
+:imagesdir: images
+:mn-document-class: elf
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:fullname: Ronald Tse
+:surname: Tse
+:givenname: Ronald
+:affiliation: EXPRESS Language Foundation
+:fullname_2: Thomas Thurman
+:surname_2: Thurman
+:givenname_2: Thomas
+:affiliation_2: EXPRESS Language Foundation
+:docidentifier: ELF 5002 (draft)
+:data-uri-image:
+:local-cache-only:
+:draft: 0.1
+
+// DRAFT: number 5002 is provisional; the final document number is assigned by ELF.
+// Enumerated from current practice: metanorma/annotated-express (reference
+// templates), metanorma/suma (conforming engine), metanorma/mn-samples-expressdocs
+// (conformance corpus), metanorma/iso-10303 (production adoption).
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-normrefs.adoc[]
+
+include::sections/03-terms.adoc[]
+
+include::sections/04-framework-overview.adoc[]
+
+include::sections/05-project-layout.adoc[]
+
+include::sections/06-collection-manifest.adoc[]
+
+include::sections/07-template-contract.adoc[]
+
+include::sections/08-anchor-reference.adoc[]
+
+include::sections/09-urn-identity.adoc[]
+
+include::sections/10-build-interface.adoc[]
+
+include::sections/11-delivery-verification.adoc[]
+
+include::sections/12-performance-contract.adoc[]
+
+include::sections/13-conformance.adoc[]

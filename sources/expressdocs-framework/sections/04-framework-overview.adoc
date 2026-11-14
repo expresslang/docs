@@ -1,0 +1,21 @@
+[[framework-overview]]
+== Framework overview
+
+An EXPRESSdocs project is authored once and published by any conforming
+implementation:
+
+[source]
+----
+schemas/            EXPRESS sources (read-only inputs)
+documents/          Annotated EXPRESS documents (ELF 5001 content)
+site manifest       collection manifest (Clause 6)
+templates/          authoring templates (Clause 7)
+----
+The build (Clause 10) renders the manifest through the template contract
+(Clauses 7–9) into a site (Clause 11), under the performance contract
+(Clause 12). Authoring is standardized at ELF 5001; this framework
+standardizes everything the build does around it.
+
+The contract is deliberately drawn so that the ISO 10303 corpus —
+hundreds of schemas, thousands of documents, production CI — is a
+conforming project rather than a special case.

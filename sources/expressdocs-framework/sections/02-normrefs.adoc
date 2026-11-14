@@ -1,0 +1,14 @@
+[[normrefs]]
+== Normative references
+
+The following documents are referred to in the text in such a way that some
+or all of their content constitutes requirements of this document.
+
+* *ELF 5001:2024*, _Annotated EXPRESS_ — the content specification for
+  annotated EXPRESS documentation (remark types, content syntax, usage).
+* *ISO 10303-11*, _Industrial automation systems and integration — Product
+  data representation and exchange — Part 11: Description methods: The
+  EXPRESS language reference manual_ — the language whose schemas are the
+  subject of published documentation.
+* *RFC 8141*, _Uniform Resource Names (URNs)_ — the syntax of the content
+  identifiers defined by this framework.

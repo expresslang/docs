@@ -1,0 +1,34 @@
+[[anchor-reference]]
+== Anchor and reference semantics
+
+==== Anchors
+
+Anchors identify linkable elements with schema-qualified identifiers, so that
+cross-document references resolve globally within a project:
+
+* schema-level elements: `[[<schema>.<element>]]`;
+* attribute-level elements: `[[<schema>.<element>.<attribute>]]`;
+* diagram anchors: `[[<schema>.expg<N>]]`, one per EXPRESS-G diagram in
+  document order.
+
+An implementation shall emit exactly one anchor per linkable element and
+shall support both the schema-qualified form and the bare form
+(`[[<element>]]`), resolving the bare form within the scope of the declaring
+schema.
+
+==== Hotspot maps
+
+Figure hotspot maps bind image regions to targets. A hotspot map is
+associated with one image; each target binds a region of the image to a
+cross-reference (the ELF 5001 remark syntax supplies the targets). Hotspot
+binding shall be exact: a target that names a specific element binds that
+element, and the binding shall survive section splitting of the rendered
+site (the referenced element may render on another page; the link shall
+follow it).
+
+==== Resolution failures
+
+A cross-reference whose target does not resolve anywhere in the project is a
+verifiable diagnostic (Clause 11), not a silent drop: implementations shall
+surface unresolved targets in a structured diagnostic channel, and delivery
+verification counts them.

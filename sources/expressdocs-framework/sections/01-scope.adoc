@@ -1,0 +1,19 @@
+[[scope]]
+== Scope
+
+This document specifies the EXPRESSdocs publishing framework: an
+implementation-neutral contract for rendering Annotated EXPRESS content into
+published documentation. It defines:
+
+* the directory layout of an EXPRESSdocs project;
+* the collection manifest that declares documents and schemas to be published;
+* the template contract that an implementation shall honour to render each
+  EXPRESS construct;
+* anchor, cross-reference, and URN identity semantics;
+* the build interface and its exit behaviour;
+* delivery verification, provenance, and signing;
+* the performance contract that implementations shall satisfy;
+* conformance classes and the conformance corpus.
+
+The *content* of Annotated EXPRESS documentation — remark types, content
+syntax, and usage — is specified in ELF 5001 and is out of scope here.

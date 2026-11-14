@@ -1,0 +1,33 @@
+[[template-contract]]
+== Template contract
+
+An implementation renders each EXPRESS construct class through *authorable
+templates*; the templates are part of the project, not of the implementation.
+
+==== Template surface
+
+The template surface shall cover at minimum: schema (identity, statements),
+entity (attributes, supertypes, subtypes, where-rules), function and
+procedure, rule, constant and type declarations, subtype constraint, USE
+FROM and REFERENCE interfaces, ELF 5001 remarks (each remark type per its
+content specification), and diagrams with hotspot maps (Clause 8).
+
+==== Resolution order
+
+Templates resolve from the most specific to the most general: project
+templates, then flavor defaults bundled with the implementation. A project
+template overrides a default of the same name; the resolution order itself
+shall be deterministic.
+
+==== Model surface
+
+Templates receive the parsed EXPRESS model — schemas, entities, attributes,
+constraints, interfaces, remarks — through a documented accessor surface.
+An implementation shall document every accessor its templates rely upon;
+undocumented accessors are not part of the contract and projects relying on
+them do so at their own risk.
+
+==== Compilation
+
+An implementation shall compile authoring templates once per process and
+reuse the compiled forms across documents (Clause 12, P1).

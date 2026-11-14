@@ -1,0 +1,15 @@
+[[urn-identity]]
+== URN identity
+
+Published EXPRESS content carries content URNs of the form
+`<base-urn>:tech:<schema>.<element>`, where `<base-urn>` is the publisher's
+URN namespace for the corpus (e.g. `urn:iso:std:iso:10303:-2:ed-2:tech`).
+Terminology concepts carry term URNs under the same base.
+
+* The wildcard form `<base-urn>:tech:*` addresses the whole technical
+  corpus.
+* URNs are stable across builds: the same schema and element yield the same
+  URN in every build.
+* Implementations should make URNs dereferenceable: a static hosting of the
+  produced site shall serve each URN at a path derived from the URN itself,
+  negotiating between canonical data and human-readable representations.

@@ -1,0 +1,17 @@
+[[foreword]]
+== Foreword
+
+This document is a *working draft*. It enumerates the EXPRESSdocs publishing
+framework as a contract from current practice, so that implementations other
+than the originating one can conform. The normative statements in this draft
+are derived from the behaviour of existing implementations, principally the
+ISO 10303 (STEP) publishing pipeline; where practice diverges, this draft
+states the intended contract and implementations converge towards it.
+
+ISO/TC 184/SC 4 and other producers of Annotated EXPRESS content are users of
+this framework, not its standardizers: authoring follows ELF 5001, publishing
+follows this specification.
+
+Attention is drawn to the possibility that some elements of this document may
+be the subject of patent rights. ELF shall not be held responsible for
+identifying any or all such patent rights.
