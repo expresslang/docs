@@ -1,0 +1,29 @@
+[[project-layout]]
+== Project layout
+
+An EXPRESSdocs project shall organize source material as follows:
+
+[source]
+----
+schemas/                    EXPRESS schema sources (.exp); read-only inputs
+documents/<document>/       Annotated EXPRESS document sources (document.adoc,
+                            per ELF 5001), one directory per document
+<site manifest>             collection manifest, Clause 6 (conventional name:
+                            metanorma.yml)
+templates/                  project-level authoring templates, Clause 7
+<derived>/                  derived data (extracted concepts, exported schema
+                            listings); reproducible, see below
+----
+
+Requirements:
+
+* Schema sources shall be treated as read-only inputs. Any annotation
+  material an implementation synthesizes into a schema listing (e.g. figure
+  hotspot maps) shall be produced as *derived output at export time* from
+  external data, never by mutating schema sources.
+* Derived data shall be reproducible from source material and build inputs.
+  A project may commit derived data for review, but a conforming
+  implementation shall regenerate it from sources and shall not consume it
+  as an input to its own production.
+* Implementations shall write all generated output to paths derived from the
+  consumer's project root, never into their own installation.

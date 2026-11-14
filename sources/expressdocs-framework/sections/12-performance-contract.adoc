@@ -1,0 +1,37 @@
+[[performance-contract]]
+== Performance contract
+
+The framework's value proposition to corpora of thousands of schemas is
+build-time behaviour, not only document expressiveness. Three requirements,
+each demonstrated by existing practice on the ISO 10303 corpus.
+
+==== P1 — Compiled-template cache (MUST)
+
+An implementation compiles authoring templates once per process; rendering N
+documents performs O(1) template compilations, not O(N).
+
+==== P2 — Content-addressed caches (MUST)
+
+Repeated renders of unchanged inputs are skipped. Cache keys compose input
+content with toolchain versions (parser, renderer, implementation), so a hit
+is equivalent to a fresh computation. A store entry consumed by a warm-skip
+shall carry the identity of what produced it, and a skip shall be taken only
+when that identity matches the current toolchain — a stale store degrades to
+a slower build, never to stale output. Incremental and sharded strategies
+(Clauses 10) live under this requirement.
+
+==== P3 — Byte-identical determinism (MUST)
+
+Identical inputs with an identical toolchain produce byte-identical outputs,
+including generated identifiers (manifest node identifiers, document root
+markers). Implementations shall canonicalize any platform- or run-derived
+values (random identifiers, timestamps where content-fixed) so that
+identical rebuilds compare byte-for-byte. This requirement is what makes
+caches, golden comparisons, and delivery verification trustworthy.
+
+==== Rationale
+
+A user adopting the framework for a corpus of 4,000 schemas should expect
+that the corpus does not render 4,000 times slower than one schema: parsing
+and rendering costs amortize through P2, template costs amortize through P1,
+and both are auditable because of P3.

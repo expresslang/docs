@@ -1,0 +1,33 @@
+[[delivery-verification]]
+== Delivery verification
+
+Delivery is more than a build: a produced site shall be *verified* against
+declared expectations before it ships.
+
+==== Expectations manifest
+
+The project (or its delivery pipeline) declares an expectations manifest — a
+data document stating the shape of a correct site and its diagnostic budget,
+as measured values: minimum counts for site sections, index pages, schema
+documents, and attachments; an exact count where the shape is fixed; an
+upper bound on missing-schema pages (zero for a complete corpus); and upper
+bounds on broken links and on diagnostic rows, itemized by family.
+
+Expectations are *measured data with a trend*: caps are set to observed
+values and ratchet downward as fixes land; they are never aspirational
+ceilings invented to make a build pass.
+
+==== Provenance
+
+The build shall emit a provenance record: a canonical digest (e.g. SHA-256)
+of every input and output, plus the toolchain versions. Provenance shall be
+verifiable independently: recomputation from the recorded inputs either
+reproduces the record or names the divergence. Signing of the provenance
+record (e.g. keyless or key-based) is optional and out of scope.
+
+==== Diagnostics channel
+
+Unresolved cross-references, validation rows, and other diagnostics are
+surfaced in a structured form and counted by *category and rule* — the
+stable identity of a diagnostic — not by diagnostic code string (codes
+migrate between tool releases; see Clause 13).

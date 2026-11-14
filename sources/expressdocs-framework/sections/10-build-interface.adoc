@@ -1,0 +1,26 @@
+[[build-interface]]
+== Build interface
+
+A conforming implementation provides a build operation that consumes a
+collection manifest (Clause 6) and produces the site (Clause 11).
+
+==== Required behaviour
+
+* The build shall resolve all document, schema, and template paths relative
+  to the project root, independent of the invocation working directory.
+* A failing document render shall produce a non-zero build exit code and a
+  structured diagnostic naming the failed document; a build shall not exit
+  zero while an expected output is missing or a member failed.
+* Incremental builds are permitted: an implementation may skip re-rendering
+  inputs that are unchanged, keyed by input content together with the
+  toolchain identity (Clause 12, P2). A cache hit shall be equivalent to a
+  fresh computation.
+
+==== Permitted strategies
+
+Staged and sharded execution — rendering disjoint member subsets in separate
+executions against a shared store, then composing — is an implementation
+strategy. Where used, the composition shall satisfy the same determinism and
+verification requirements as a single-pass build, and a store entry shall be
+consumed only when the implementation can establish what produced it
+(toolchain identity; see Clause 12, P2).

@@ -1,0 +1,28 @@
+[[collection-manifest]]
+== Collection manifest
+
+The collection manifest is a data document (YAML) that declares what an
+implementation builds. It shall contain no executable logic.
+
+==== Structure
+
+* *files* — the documents to render, as source paths (document.adoc entries)
+  or nested manifests. A document entry declares its output formats and may
+  declare that its rendered site is split per section (section splitting):
+  the split is an implementation behavior, the declaration is manifest data.
+* *directives* — build directives as single-key entries. Directives are
+  declarative requests (e.g. `base-dir: collection` — resolve document
+  includes against the collection root); an implementation that does not
+  understand a directive shall fail loudly rather than ignore it silently.
+* *collection metadata* — organization and collection name for the produced
+  site.
+
+==== Requirements
+
+* Manifest entries identify documents and schemas by path relative to the
+  project root; an implementation shall resolve them identically regardless
+  of the working directory the build is invoked from.
+* Every manifest node used as a build input shall carry a stable identity so
+  that generated identifiers derived from it are deterministic (Clause 12).
+* The manifest is the single source of document ordering; render completion
+  order shall never influence manifest-derived ordering.

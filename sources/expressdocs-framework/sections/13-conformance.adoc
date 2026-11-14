@@ -1,0 +1,38 @@
+[[conformance]]
+== Conformance
+
+==== Conformance classes
+
+*class 1 — EXPRESSdocs project*:: a project organized per Clause 5, declared
+per Clause 6, authoring content per ELF 5001, whose expectations manifest
+(Clause 11) passes under a conforming implementation.
+
+*class 2 — conforming implementation*:: an implementation that satisfies the
+template contract (Clause 7), the anchor and URN semantics (Clauses 8–9),
+the build interface (Clause 10), delivery verification (Clause 11), and the
+performance contract (Clause 12).
+
+==== Conformance corpus
+
+The reference conformance corpus is the EXPRESSdocs sample project
+(mn-samples-expressdocs): a wg12-shaped project exercising every clause of
+this document with a minutes-scale build. An implementation conforms when:
+
+* it builds the corpus successfully with a non-zero-exit failure mode for
+  each induced defect (missing document, unresolved reference, broken
+  expectation);
+* its output for the corpus is byte-identical across repeated builds (P3);
+* its expectations verification passes the corpus manifest.
+
+==== Diagnostic stability
+
+Implementations shall expose diagnostics by *category and rule*, which are
+stable identifiers across releases. Diagnostic codes are display labels and
+may migrate between tool releases; a migration shall be published in release
+notes. Consumers shall not key behaviour on code strings.
+
+==== Future work
+
+Profiles for corpus families (e.g. ISO 10303 application-protocol
+publications, their USE-FROM closure bundling) build on this framework and
+are specified separately.
